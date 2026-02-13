@@ -1,0 +1,67 @@
+*{
+  margin:20px;
+  padding: 0px;
+  color: white;
+
+}
+
+body{
+  background-color: black;
+}
+
+button{
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  transition: all ease 0.3s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+}
+
+button:active{
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+}
+
+.man{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(64, 114, 223);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.women{
+
+   width: 300px;
+  height: 200px;
+  background-color: rgb(244, 61, 158);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+
+}
