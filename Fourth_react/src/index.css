@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+body{
+  background-color: black;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  align-items: center;
+   justify-content: space-between   ;
+   /* background-color: red; */
+   gap: 10px;
+  
+}
+
+input{
+  width: 48%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.add{
+  width: 80%;
+  padding: 10px 20px;
+  margin-left: 10%;
+  font-size: large;
+  background-color: #32e529;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: all ease 0.3s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+}
+
+
+.add:active{
+  transform: scale(.96);
+  -webkit-transform: scale(.96);
+  -moz-transform: scale(.96);
+  -ms-transform: scale(.96);
+  -o-transform: scale(.96);
+}
+
+.main-div{
+  display: flex;
+}
+
+.card{
+  width: 230px;
+  height: 270px;
+  background-color: rgb(236, 233, 233);
+  border: none;
+  border-radius: 5px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 8px;
+  /* justify-content: center; */
+  position: relative;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.card img{
+
+ width: 70px;
+ height: 70px;
+ object-fit: cover;
+ object-position: center;
+ border-radius:50% ;
+ /* position: absolute; */
+ /* top: 7%; */
+ -webkit-border-radius:50% ;
+ -moz-border-radius:50% ;
+ -ms-border-radius:50% ;
+ -o-border-radius:50% ;
+}
+
+.card h3{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card h4{
+  font-size: 16px;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card p{
+  font-size: 14px;
+  text-align: center;
+}
+
+ .remove{
+  position: absolute;
+  bottom: 3%;
+  padding: 6px 4px;
+  background-color: red;
+  color: white;
+}
