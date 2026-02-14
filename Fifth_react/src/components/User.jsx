@@ -3,8 +3,8 @@ import React from 'react'
 const User = (props) => {
   return (
     <div className='card'>
-      <h2>{props.elem.data}</h2>
-      <p>{props.elem.data}</p>
+      <h2>{props.elem.name}</h2>
+      <p>{props.elem.website}</p>
     </div>
   )
 }
